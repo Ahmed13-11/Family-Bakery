@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.homehead {
+    background-image: url(./Imges/1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 725px;
+    text-align: center;
+    color: white;
+}
+.homehead .imp {
+    font-size: 22px;
+    padding-top: 220px;
+}
+.homehead h1 {
+    font-size: 76px;
+    margin: 20px 0;
+}
+.homehead #special {
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+.homehead button {
+    width: 130px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 0 10px;
+}
+#fir-btn {
+    border: 2px solid transparent;
+    background-color: #9A744A;
+}
+#sec-btn {
+    border: 2px solid white;
+    background-color: transparent;
+}
+#id {
+    height: 725px;
+    background-color: #ffffff;
+}
+#id .imgdescripe,.descripe{
+    width: 45%;
+    height: 100%;
+    display: inline-block;
+}
+#id .imgdescripe {
+    text-align: right;
+}
+.imgdescripe img {
+    width: 500px;
+    height: 70%;
+    padding-top: 110px;
+}
+#id .descripe {
+    vertical-align: top;
+    padding: 180px 40px 0 80px;
+}
+.descripe h2 {
+    color: black;
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.descripe p {
+    font-size: 17px;
+    color: #686868;
+    line-height: 30px;
+    width: 560px;
+    padding-bottom: 20px;
+}
+.descripe li {
+    line-height: 60px;
+    list-style: none;
+}
+.descripe li span {
+    padding-left: 40px;
+}
+#history {
+    height: 725px;
+    background-color: #F8F8F8;
+}
+#history .historyof,.historyimg{
+    width: 46%;
+    height: 100%;
+    display: inline-block;
+}
+#history .historyimg {
+    text-align: left;
+}
+.historyimg img {
+    width: 600px;
+    height: 70%;
+    padding: 110px 0 0 40px;
+}
+#history .historyof {
+    vertical-align: top;
+}
+.historyof h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: black;
+    padding: 200px 0 22px 100px;
+}
+.historyof p {
+    width: 560px;
+    font-size: 17px;
+    color: #686868;
+    line-height: 30px;
+    padding-left: 100px;
+}
+.historyof .par {
+    padding-top: 20px;
+}
+#ourbaking {
+    height: 800px;
+    text-align: center;
+}
+.mk-bak h2{
+    padding: 70px 0 20px 0;
+    font-size: 30px;
+}
+.mk-bak p {
+    padding-bottom: 60px;
+}
+#ourbaking .dif-bak {
+    width: 420px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+.dif-bak img {
+    width: 100%;
+}
+.clr {
+    clear: both;
+}
+.container {
+    padding: 0 42px;
+}
+.dif-bak h3 {
+    padding: 30px 0;
+    font-size: 22px;
+}
+.dif-bak p {
+    font-size: 17px;
+    color: #686868;
+}
+#con-inf {
+    background-color: #F8F8F8;
+    height: 700px;
+}
+#con-inf .contect, .site-frame {
+    width: 50%;
+    float: left;
+    padding-top: 100px;
+}
+.contect .contect-cont{
+    width: 75%;
+    padding-left: 120px;
+}
+.contect h2 {
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.contect p {
+    font-size: 17px;
+    color: #686868;
+    line-height: 30px;
+
+}
+.contect #sp-par {
+    padding: 25px 0;
+}
+.contect li {
+    list-style-type: none;
+    line-height: 65px;
+}
+.contect li span {
+    padding-left: 40px;
+}
+.site-frame {
+    text-align: center;
+}
+#footer {
+    background-color: #403D38;
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+.foot-container {
+    padding: 60px 0 0 130px;
+}
+#footer .first-box, .second-box, .third-box, .fourth-box {
+    float: left;
+    width: 20%;
+    padding: 20px;
+}
+.foot-container h4 {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.foot-container p{
+    line-height: 30px;
+}
+.first-box .firbox-spe {
+    padding-bottom: 20px;
+}
+.foot-container li {
+    list-style-type:none;
+    line-height: 50px; 
+}
+.foot-container li i {
+    padding-right: 20px;
+}
+#final {
+    background-color: rgb(30, 30, 0);
+    height: 200px;
+    text-align: center;
+    color: #ffffff;
+}
+#final img{
+    padding: 30px 0;
+}
+.nav {
+    height: 50px;
+}
+.nav img {
+    width: 20%;
+    height: 100%;
+    color: white;
+}
+.nav .bakery, .menu {
+    width: 49%;
+    display: inline-block;
+}
+.nav .menu{
+    text-align: center;
+    vertical-align: top;
+}
+.menu li {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 5px;
+}
+.menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
